@@ -1,0 +1,519 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+
+
+.top{
+    margin: 40px 100px;
+    box-shadow: 0px 3px 15px #383535;
+    z-index:999;
+    
+}
+
+.upside .go-news{
+    font-size: 18px !important;
+    color: rgb(255, 198, 93) !important;
+    position: absolute;
+    z-index: 3;
+    margin-top: 380px;
+    margin-left: 80px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.upside .go-news:hover{
+    color: rgb(0, 0, 0) !important;
+}
+
+
+.upside .fa{
+    font-size: 18px !important;
+    position: absolute;
+    margin-top: 384px;
+    z-index: 3;
+    margin-left: 210px;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    
+}
+
+
+.upside .fa:hover{
+    color: rgb(46, 41, 32) !important;
+}
+
+.upside .text-title{
+    position: absolute;
+    color: #fff;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 250px;
+    margin-left: 40px;
+    z-index: 3;
+    text-decoration: none;
+    word-wrap: break-word;
+    width: 420px;
+}
+.upside .text-title:hover{
+   
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.card-img-top{
+    padding: 5px 2px !important;
+    border-radius: 5px;
+}
+
+
+
+.text{
+    height: 90px;
+    
+}
+
+#texts a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+
+
+
+div {
+    display: block;
+}
+
+#texts a:hover{
+    color: rgb(110, 36, 63);
+}
+
+
+
+
+
+.content{
+    position: absolute !important;
+    left: 1rem;
+    bottom: 9rem;
+    z-index: 3;
+    left: 4rem;
+    color: #fff!important;
+    font-weight: bold;
+    
+    
+}
+
+
+.content a{
+    display: block;
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.content a{
+    position:absolute !important;
+    font-size: 2.5rem;
+    color: #fff!important;
+    z-index: 3;
+    
+    overflow: visible !important;
+    word-wrap:break-word;
+    width: 400px;
+    
+}
+.content a:hover{
+    color: #000 !important;
+}
+
+/* .content-box{
+    position: absolute;
+    bottom: 18rem;
+    z-index: 3;
+    margin-left: 10px;
+
+}
+
+
+
+
+.content-box a{
+    font-size: 1.2rem;
+    color: #fff!important;
+    max-height: none !important;
+    overflow: visible !important;
+    word-wrap:break-word;
+    width: 300px;
+    font-weight: bold;
+    
+}
+
+
+
+
+.content-box2{
+    position: absolute;
+    bottom: 18rem;
+    right: -1.5rem;
+
+}
+
+
+
+
+.content-box2 a{
+    font-size: 1.2rem;
+    color: #fff!important;
+    max-height: none !important;
+    overflow: visible !important;
+    word-wrap:break-word;
+    width: 300px;
+    font-weight: bold;
+    
+}
+
+
+
+.content-box3{
+    position: absolute;
+    bottom: 1rem;
+    right: 16rem;
+    z-index: 3;
+    margin-left: 10px;
+
+}
+
+
+
+
+.content-box3 a{
+    font-size: 1.2rem;
+    color: #fff!important;
+    max-height: none !important;
+    overflow: visible !important;
+    word-wrap:break-word;
+    width: 300px;
+    font-weight: bold;
+    
+}
+
+
+.content-box4{
+    position: absolute;
+    bottom: 1rem;
+    right: -1.5rem;
+
+}
+
+
+
+
+.content-box4 a{
+    font-size: 1.2rem;
+    color: #fff!important;
+    max-height: none !important;
+    overflow: visible !important;
+    word-wrap:break-word;
+    width: 300px;
+    font-weight: bold;
+    
+}
+
+
+
+
+.content-box a:hover{
+    color: #000 !important;
+}
+
+.content-box4 a:hover{
+    color: #000 !important;
+}
+
+
+.content-box2 a:hover{
+    color: #000 !important;
+}
+
+
+.content-box3 a:hover{
+    color: #000 !important;
+} */
+
+
+
+.uptitle{
+    position: absolute;
+    z-index: 3;
+    left:2rem;
+    top:2rem;
+    border-top: 1px solid rgb(250, 179, 48);
+    background-color: rgb(250, 179, 48);
+    color: rgb(253, 244, 244);
+    padding: 2px 4px;
+    font-size: 20px;
+}
+
+
+.date{
+    position: absolute;
+    z-index: 3;
+    left:6.2rem;
+    top: 2rem;
+    border-top: 1px solid #000;
+    background-color: rgb(37, 37, 33);
+    color: rgb(255, 255, 249);
+    padding: 2px 4px;
+    font-size: 20px;
+}
+
+
+.uptitle1,.uptitle2,.uptitle3,.uptitle4{
+    position: absolute;
+    border-top: 1px solid rgb(250, 179, 48);
+    background-color: rgb(250, 179, 48);
+    color: rgb(253, 244, 244);
+    padding: 2px 4px;
+    font-size: 12px;
+    z-index: 3;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+
+.date1,.date2,.date3,.date4{
+    position: absolute;
+    border-top: 1px solid #000;
+    background-color: rgb(37, 37, 33);
+    color: rgb(255, 255, 249);
+    padding: 2px 4px;
+    font-size: 12px;
+    z-index: 3;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+
+
+
+
+
+.box-title,.box-title1,.box-title2,.box-title3{
+    position: absolute;
+    z-index: 3;
+    color: rgb(253, 244, 244);
+    padding: 2px 4px;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 10px;
+    overflow: visible !important;
+    word-wrap:break-word;
+    width: 250px;
+   
+    
+}
+
+
+
+.new-boxes a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.new-boxes a:hover,a:focus{
+    color: #000;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .upside .go-news{
+        z-index: -1;
+    }
+    .upside .fa{
+        z-index: -1;
+        
+    }
+
+
+    .upside .text-title{
+        position: absolute;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 140px;
+        margin-left: 10px;
+        z-index: 3;
+        text-decoration: none;
+        word-wrap: break-word;
+        width: 240px;
+    }
+
+    .uptitle{
+        font-size: 12px;
+        left: 0;
+        margin-left: 20px !important;
+    }
+    .date{
+        font-size: 12px;
+        position: absolute;
+        left:0;
+        margin-left: 66px !important;
+    }
+
+
+
+
+  }
+@media only screen and (min-width: 600px) {
+    .upside .go-news{
+        z-index: -1;
+    }
+    .upside .fa{
+        z-index: -1;
+        
+    }
+
+
+    .upside .text-title{
+        left:0;
+        top:0;
+        position: absolute;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 150px !important;
+        margin-left: 10px !important;
+        z-index: 3;
+        text-decoration: none;
+        word-wrap: break-word;
+        width: 240px;
+    }
+
+    .uptitle{
+        font-size: 12px;
+        left: 0;
+        margin-left: 20px !important;
+    }
+    .date{
+        font-size: 12px;
+        position: absolute;
+        left:0;
+        margin-left: 66px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .upside .go-news{
+        z-index: -1;
+    }
+    .upside .fa{
+        z-index: -1;
+        
+    }
+
+
+    .upside .text-title{
+        left:0;
+        top:0;
+        position: absolute;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 240px !important;
+        margin-left: 80px !important;
+        z-index: 3;
+        text-decoration: none;
+        word-wrap: break-word;
+        width: 240px;
+    }
+
+    .uptitle{
+        font-size: 12px;
+        left: 0;
+        margin-left: 20px !important;
+    }
+    .date{
+        font-size: 12px;
+        position: absolute;
+        left:0;
+        margin-left: 66px !important;
+    }
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    .upside .go-news{
+        font-size: 18px !important;
+        color: rgb(255, 198, 93) !important;
+        position: absolute;
+        z-index: 3;
+        margin-top: 380px;
+        margin-left: 80px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    
+    .upside .go-news:hover{
+        color: #fff;
+
+    }
+    
+    
+    .upside .fa{
+        font-size: 18px !important;
+        position: absolute;
+        margin-top: 384px;
+        z-index: 3;
+        margin-left: 210px;
+        color: rgb(255, 255, 255) !important;
+        font-weight: bold;
+        
+    }
+    
+    
+    .upside .fa:hover{
+        color: rgb(46, 41, 32) !important;
+    }
+    
+    .upside .text-title{
+        position: absolute;
+        color: #fff;
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 250px;
+        margin-left: 40px;
+        z-index: 3;
+        text-decoration: none;
+        word-wrap: break-word;
+        width: 420px;
+    }
+    .upside .text-title:hover{
+       
+        color: rgb(0, 0, 0);
+        
+    }
+}
